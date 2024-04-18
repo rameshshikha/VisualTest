@@ -20,7 +20,7 @@ describe('register test',()=>{
           await register.registerNewDetails('miya'+x+'','474364848'+x+'','867685432'+x+'','abc'+x+'@gmail.com','HME234'+x+''
         ,'2BHK','India','karnataka','bangalore','rent','NA','high security','near to metro'+x+'','plot 1, bangalore'+x+'',100000,'Occupied', file)
           await browser.pause(10000)
-        expect(register.Valid).to.include('Registration successfull. Thank you')
+        expect(register.Valid).to.include('Registration successfull. Thank you');
           await browser.pause(2000)
           console.log('your script is pass');
   
