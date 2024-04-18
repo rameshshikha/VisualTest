@@ -10,8 +10,8 @@ describe('logintoapplication test',()=>{
        await  browser.pause(3000)
         await browser.url('http://rmgtestingserver/domain/House_Rental_Application/auth/login.php')
         browser.pause(3000)
-        await login.loginToApplication(username, password)
-         await browser.pause(3000)
+        await login.loginToApplication(username, password);
+         await browser.pause(4000);
     })
     
 })
