@@ -22,8 +22,8 @@ class EditPage{
                await this.detailsbtn.click()
                await this.Editbtn.click()
                //await this.Vacantdropdown.selectByVisibleText(text)
-                  await this.Areatf.setValue(areatext)
-               await this.submit.click()
+                  await this.Areatf.setValue(areatext);
+               await this.submit.click();
             }
 }
 export default new EditPage()
