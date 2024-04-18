@@ -36,9 +36,9 @@ export const config = {
     exclude: [
         // 'path/to/excluded/files'
     ],
-    suites:{
-        smoke :['./test/specs/LoginToAPP..js/LogintoApplication.js','./test/specs/Complaintpage.js']
-    },
+    // suites:{
+    //     smoke :['./test/specs/LoginToAPP..js/LogintoApplication.js','./test/specs/Complaintpage.js']
+    // },
     //
     // ============
     // Capabilities
