@@ -24,10 +24,10 @@ export const config = {
     // of the config file unless it's absolute.
     //
     specs: [
-     //   './test/specs/**/*.js',
+       './test/specs/**/*.js',
       
-        './test/specs/RegisterasADMIN.js/RegisterNewDetails.js',
-        './test/specs/LoginToAPP..js/LogintoApplication.js'
+       // './test/specs/RegisterasADMIN.js/RegisterNewDetails.js',
+     //   './test/specs/LoginToAPP..js/LogintoApplication.js'
     //    './test/specs/Complaintpage.js',
     //    './test/specs/EditDetails.js'
        
