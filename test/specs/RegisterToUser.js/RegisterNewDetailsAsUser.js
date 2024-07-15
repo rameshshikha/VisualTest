@@ -56,6 +56,10 @@ describe('registernewuser test',()=>{
 
                                     
                                     await expect(a).toHaveText('riya'+x+'')
+                                     expect(a).to.be.equal('riya'+x+'')
+                                    expect (a).to.be.include('riya') 
+                                    expect(a).to.be.a.string.to.include('riya')
+                                    expect(a).to.be.a.string.toHaveText('riya')
                                     console.log(('pass'));
                        
                           })

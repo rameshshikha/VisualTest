@@ -23,7 +23,7 @@ await Complaint.ComplaintPage('A1202','NO CCTV')
 await browser.pause(3000)
 })
 
-it('validation test', async()=>{
+it('validation test  ',    async()=>{
     await expect(complaint.validate).toEqual('Sent Successfully')
           console.log( `pass`);
 
